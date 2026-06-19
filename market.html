@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<title>बाजारभाव</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>💰 आजचे बाजारभाव</h1>
+<br>
+
+<select id="state">
+    <option>राज्य निवडा</option>
+</select>
+
+<br><br>
+
+<select id="district">
+    <option>जिल्हा निवडा</option>
+</select>
+
+<br><br>
+<br>
+
+<select id="crop">
+<option>पीक निवडा</option>
+<option>कांदा</option>
+<option>टोमॅटो</option>
+<option>बटाटा</option>
+<option>सोयाबीन</option>
+<option>कापूस</option>
+<option>गहू</option>
+<option>तांदूळ</option>
+<option>मका</option>
+<option>हरभरा</option>
+<option>तूर</option>
+</select>
+
+<br><br>
+
+<button onclick="getMarketPrice()">
+🔍 बाजारभाव पहा
+</button>
+
+<br><br>
+
+<div id="marketResult"></div>
+
+
+<button onclick="location.href='dashboard.html'">
+⬅️ डॅशबोर्डवर जा
+</button>
+
+</div>
+
+<script src="market.js"></script>
+
+</body>
+</html>
